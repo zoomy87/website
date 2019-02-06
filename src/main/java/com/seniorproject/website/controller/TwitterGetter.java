@@ -4,6 +4,9 @@ public class TwitterGetter {
 	private String URL= "http://localhost:8282/api/v1/search/ilstu";
 	
 	
-	
+	@GetMapping("/search")
+	public  searchTweets() { 
+		
+	}
 	
 }
